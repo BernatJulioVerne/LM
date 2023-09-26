@@ -1,5 +1,5 @@
 # Lenguaje de Marcas 1 DAM IES JULIO VERNE 2023-2024
 
-##Índice
+## Índice
 
-*[Web de Ejemplo](https://bernatjulioverne.github.io/LM/)
+* [Web de Ejemplo](https://bernatjulioverne.github.io/LM/)
