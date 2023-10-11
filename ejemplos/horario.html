@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div {
+            border: 1px solid red; /* borde del div de 1px de gordo y de color rojo*/
+            width: 100px; /* tamaño del div ancho de 100px*/
+            margin: 20px; /* margen exterior*/
+            margin-left:50px;
+            padding: 20px; /* margen interior, en todos los lados, padding-left -> solo a la izquierda, padding-top, solo arriba*/
+        }
+        #tabla{
+            width:100%; /* ancho al 100% del div de fuera o de la pantalla*/
+        }
+        .fila{
+            float:left;  /* alinea a la izquierda, si no cabe, se va pa abajo.*/
+            width:200px;
+        }
+        .lm {
+            background-color:#ffff00; /* color de fondo*/
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tabla">
+        <div class="fila">
+            <div id="pro">Programacion</div>
+            <div class="lm">LM</div>
+            <div class="lm">LM</div>
+            <div id="ed">Entornos de desarrollo</div>
+            <div id="pro1">Entornos de desarrollo</div>
+            <div id="pro2">Programacion</div>
+            <div id="pro3">Programacion</div>
+        </div>
+        <div class="fila">
+            <div id="pro4">Programacion</div>
+            <div class="lm">LM</div>
+            <div class="lm">LM</div>
+            <div id="ed2">Entornos de desarrollo</div>
+            <div id="pro5">Entornos de desarrollo</div>
+            <div id="pro6">Programacion</div>
+            <div id="pro7">Programacion</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
