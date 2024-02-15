@@ -1,0 +1,33 @@
+#pantalla {
+width: 900px;
+    background-color: cadetblue;
+    height: 600px;
+
+}
+
+#pie {
+   
+    position: absolute;
+    width: 900px;
+    height: 100px;   
+     top: 500px;
+     background-image: url('../img/ladrillo.png');
+}
+#mario {
+    position: absolute;
+    top: 465px;
+    left: 100px;
+}
+
+#bicho {
+    position: absolute;
+    top: 465px;
+    left: 600px;
+}
+
+#cartel{
+position: absolute;
+top: 100px;
+left: 300px;
+
+}

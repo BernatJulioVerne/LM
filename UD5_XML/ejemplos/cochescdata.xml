@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<coches>
+  <coche matricula="1234qwe">
+      <puertas>5</puertas>
+      <color>rojo</color>
+      <motor>gasolina</motor>
+      <descripcion>
+        <![CDATA[ <p>el coche es nuevo</p><p> muy buen precio</p>]]>
+    </descripcion>
+  </coche>
+  <coche matricula="9876asd">
+      <puertas>3</puertas>
+      <color>gris</color>
+      <motor>diesel</motor>
+      <descripcion>
+        <![CDATA[<h2>¡GRAN OFERTA!</h2><p>No dejes escapar esta oportunidad</p>]]>
+      </descripcion>
+  </coche>
+</coches>
