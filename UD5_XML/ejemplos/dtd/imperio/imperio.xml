@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imperio SYSTEM "imperio.dtd">
+<imperio>
+    <planetas>
+        <planeta>
+            <nombre>Tatooine</nombre>
+            <tipo>Desértico</tipo>
+            <habitantes>200000</habitantes>
+            <flotas>
+                <flota>
+                    <nombre>Flota 1</nombre>
+                    <nave matricula="s4534534-erf">Star Destroyer</nave>
+                    <cantidad>10</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+                <flota>
+                    <nombre>Flota 2</nombre>
+                    <nave matricula="s9876asd">TIE Fighter</nave>
+                    <cantidad>50</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+                <flota>
+                    <nombre>Flota 3</nombre>
+                    <nave matricula="x353453-sdf">X-wing</nave>
+                    <cantidad>25</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+            </flotas>
+        </planeta>
+        <planeta>
+            <nombre>Alderaan</nombre>
+            <tipo>Terrestre</tipo>
+            <habitantes>2000000000</habitantes>
+            <flotas>
+                <flota>
+                    <nombre>Flota 1</nombre>
+                    <nave matricula="s4534534-erfa">Star Destroyer</nave>
+                    <cantidad>10</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+                <flota>
+                    <nombre>Flota 2</nombre>
+                    <nave matricula="s9876asda">TIE Fighter</nave>
+                    <cantidad>50</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+                <flota>
+                    <nombre>Flota 3</nombre>
+                    <nave matricula="x353453-sdfa">X-wing</nave>
+                    <cantidad>25</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+            </flotas>
+        </planeta>
+        <planeta>
+            <nombre>Hoth</nombre>
+            <tipo>Gélido</tipo>
+            <habitantes>0</habitantes>
+            <flotas>
+                <flota>
+                    <nombre>Flota 1</nombre>
+                    <nave matricula="s4534534-erfs">Star Destroyer</nave>
+                    <cantidad>10</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+                <flota>
+                    <nombre>Flota 2</nombre>
+                    <nave matricula="s9876asds">TIE Fighter</nave>
+                    <cantidad>50</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+                <flota>
+                    <nombre>Flota 3</nombre>
+                    <nave matricula="x353453-sdfs">X-wing</nave>
+                    <cantidad>25</cantidad>
+                    <tripulacion>
+                        <miembro>Darth Vader</miembro>
+                        <miembro>Emperor Palpatine</miembro>
+                        <miembro>Count Dooku</miembro>
+                    </tripulacion>
+                </flota>
+            </flotas>
+        </planeta>
+    </planetas>
+</imperio>

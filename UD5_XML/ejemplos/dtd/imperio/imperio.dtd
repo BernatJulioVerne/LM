@@ -1,0 +1,14 @@
+
+<!ELEMENT imperio (planetas)>
+<!ELEMENT planetas (planeta*)>
+<!ELEMENT planeta (nombre,tipo,habitantes,flotas)>
+<!ELEMENT flotas (flota*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT habitantes (#PCDATA)>
+<!ELEMENT flota (nombre,nave,cantidad,tripulacion)>
+<!ELEMENT nave (#PCDATA)>
+<!ATTLIST nave matricula ID #REQUIRED>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT tripulacion (miembro*)>
+<!ELEMENT miembro (#PCDATA)>
