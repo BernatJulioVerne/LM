@@ -1,4 +1,3 @@
-
 <!ELEMENT imperio (planetas)>
 <!ELEMENT planetas (planeta*)>
 <!ELEMENT planeta (nombre,tipo,habitantes,flotas)>
