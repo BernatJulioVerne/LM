@@ -1,0 +1,20 @@
+<!-- rebelion.dtd -->
+<!ELEMENT rebelion (planetas,personas,naves)>
+<!ELEMENT planetas (planeta+)>
+<!ELEMENT planeta (nombrePlaneta,tipo)>
+<!ATTLIST planeta id ID #REQUIRED>
+<!ELEMENT nombrePlaneta (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre,edad,origen)>
+<!ATTLIST persona id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ATTLIST origen id IDREF #REQUIRED>
+<!ELEMENT naves (nave+)>
+<!ELEMENT nave (matricula,modelo)>
+<!ATTLIST nave id ID #REQUIRED>
+<!ATTLIST nave comandante IDREF #REQUIRED>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>

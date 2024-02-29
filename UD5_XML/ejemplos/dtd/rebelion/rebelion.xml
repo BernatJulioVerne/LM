@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rebelion SYSTEM "rebelion.dtd">
+<rebelion>
+
+    <planetas>
+        <planeta id="p1">
+            <nombrePlaneta>Tatooine</nombrePlaneta>
+            <tipo>Desértico</tipo>
+        </planeta>
+        <planeta id="p2">
+            <nombrePlaneta>Alderaan</nombrePlaneta>
+            <tipo>Terrestre</tipo>
+        </planeta>
+        <planeta id="p3">
+            <nombrePlaneta>Corellia</nombrePlaneta>
+            <tipo>Boscoso</tipo>
+        </planeta>
+    </planetas>
+    <personas>
+        <persona id="m1">
+            <nombre>Luke Skywalker</nombre>
+            <edad>25</edad>
+            <origen id="p1" />
+        </persona>
+        <persona id="m2">
+            <nombre>Leia Organa</nombre>
+            <edad>25</edad>
+            <origen id="p2" />
+        </persona>
+        <persona id="m3">
+            <nombre>Han Solo</nombre>
+            <edad>30</edad>
+            <origen id="p1" />
+        </persona>
+    </personas>
+    <naves>
+        <nave id="n1" comandante="p1">
+            <matricula>1234qwe</matricula>
+            <modelo>X-wing</modelo>
+        </nave>
+        <nave id="n2" comandante="p2">
+            <matricula>9876asd</matricula>
+            <modelo>Y-wing</modelo>
+        </nave>
+        <nave id="n3" comandante="p3">
+            <matricula>1234qwe</matricula>
+            <modelo>Millenium Falcon</modelo>
+        </nave>
+    </naves>
+</rebelion>
