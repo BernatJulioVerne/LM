@@ -38,11 +38,11 @@
             <matricula>1234qwe</matricula>
             <modelo>X-wing</modelo>
         </nave>
-        <nave id="n2" comandante="p2">
+        <nave id="n2" comandante="m2">
             <matricula>9876asd</matricula>
             <modelo>Y-wing</modelo>
         </nave>
-        <nave id="n3" comandante="p3">
+        <nave id="n3" comandante="m3">
             <matricula>1234qwe</matricula>
             <modelo>Millenium Falcon</modelo>
         </nave>
