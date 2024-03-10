@@ -1,0 +1,23 @@
+<!ELEMENT consejeria (instituto*)>
+<!ELEMENT instituto (personas,modulos)>
+<!ATTLIST instituto nombre CDATA #REQUIRED>
+<!ATTLIST instituto direccion CDATA #REQUIRED>
+<!ENTITY cifconsejeria "c-12345678-a">
+<!ATTLIST instituto cif CDATA #REQUIRED>
+<!ELEMENT personas (persona*)>
+<!ELEMENT persona (nombre,apellidos,edad)>
+<!ATTLIST persona id ID #REQUIRED>
+<!ATTLIST persona rol (alumnado|docente) #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT modulos (modulo*)>
+<!ELEMENT modulo (nombremodulo,matriculados,horassemana)>
+<!ATTLIST modulo id ID #REQUIRED>
+<!ATTLIST modulo docente IDREF #REQUIRED>
+<!ATTLIST modulo ciclo NMTOKEN #REQUIRED>
+<!ELEMENT nombremodulo (#PCDATA)>
+<!ELEMENT horassemana (#PCDATA)>
+<!ELEMENT matriculados (matriculado+)>
+<!ELEMENT matriculado EMPTY>
+<!ATTLIST matriculado idPersona IDREF #REQUIRED>

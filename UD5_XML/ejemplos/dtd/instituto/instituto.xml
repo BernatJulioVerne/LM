@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE consejeria SYSTEM "instituto.dtd">
+<consejeria>
+    <instituto nombre="adfsafsd" direccion="assdfdf" cif="%cifconsejeria">
+       <personas>
+            <persona id="p1" rol="alumnado">
+                <nombre>Maria</nombre>
+                <apellidos>Sanchez</apellidos>
+               <edad>21</edad>
+            </persona>
+            <persona id="p2" rol="docente">
+                <nombre>Jose</nombre>
+                <apellidos>Garcia</apellidos>
+                <edad>35</edad>
+            </persona>
+            <persona id="p3" rol="alumnado">
+                <nombre>Antonio</nombre>
+                <apellidos>Jimenez</apellidos>
+                <edad>20</edad>
+            </persona>
+        </personas>
+       <modulos>
+        <modulo id="m1" docente="p2" ciclo="DAM">
+            <nombremodulo>Acceso a Datos</nombremodulo>
+            <matriculados>
+                <matriculado idPersona="p1" />
+                <matriculado idPersona="p3" />
+            </matriculados>
+            <horassemana>6</horassemana>
+        </modulo>
+    </modulos>
+    </instituto>
+</consejeria>
