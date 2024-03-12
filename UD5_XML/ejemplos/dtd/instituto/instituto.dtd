@@ -12,7 +12,8 @@
 <!ELEMENT apellidos (#PCDATA)>
 <!ELEMENT edad (#PCDATA)>
 <!ELEMENT modulos (modulo*)>
-<!ELEMENT modulo (nombremodulo,matriculados,horassemana)>
+<!ELEMENT modulo (nombremodulo,matriculados,horassemana,url)>
+<!ELEMENT url (#PCDATA) >
 <!ATTLIST modulo id ID #REQUIRED>
 <!ATTLIST modulo docente IDREF #REQUIRED>
 <!ATTLIST modulo ciclo NMTOKEN #REQUIRED>

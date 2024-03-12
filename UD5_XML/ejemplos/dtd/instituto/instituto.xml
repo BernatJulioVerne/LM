@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE consejeria SYSTEM "instituto.dtd">
 <consejeria>
-    <instituto nombre="adfsafsd" direccion="assdfdf" cif="%cifconsejeria">
+    <instituto nombre="adfsafsd" direccion="assdfdf" cif="&cifconsejeria;">
        <personas>
             <persona id="p1" rol="alumnado">
                 <nombre>Maria</nombre>
@@ -10,7 +10,7 @@
             </persona>
             <persona id="p2" rol="docente">
                 <nombre>Jose</nombre>
-                <apellidos>Garcia</apellidos>
+                <apellidos><![CDATA[ c&a< >  " ']]></apellidos>
                 <edad>35</edad>
             </persona>
             <persona id="p3" rol="alumnado">
@@ -22,12 +22,18 @@
        <modulos>
         <modulo id="m1" docente="p2" ciclo="DAM">
             <nombremodulo>Acceso a Datos</nombremodulo>
+          
             <matriculados>
                 <matriculado idPersona="p1" />
                 <matriculado idPersona="p3" />
             </matriculados>
             <horassemana>6</horassemana>
-        </modulo>
+            <url>
+                <![CDATA[ 
+                https://dfgdsf.es/index.html?sdfsdf=sfdf&fg=sdfs
+                ]]>
+            </url>
+            </modulo>
     </modulos>
     </instituto>
 </consejeria>
