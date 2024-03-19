@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netflix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="netflix.xsd">
+    <cuentas>
+        <cuenta id="c1" cuentabancaria="ES96-3440-5514-00-00021620">
+            <precio>16.99</precio>
+            <dni>12345678A</dni>
+            <email>
+                user@correo.com
+            </email>
+            <passwod>12345678</passwod>
+            <usuarios>
+                <user id="u1">
+                    <nombre>pepe</nombre>
+                    <fechanacimiento>2000-12-23</fechanacimiento>
+                    <favs>
+                        <peli idpeli="peli1" />
+                        <peli idpeli="peli2" />
+                        <peli idpeli="peli3" />
+                    </favs>
+                </user>
+                <user id="u2">
+                    <nombre>juan</nombre>
+                    <fechanacimiento>2000-12-23</fechanacimiento>
+                    <favs>
+                        <peli idpeli="peli4" />
+                        <peli idpeli="peli5" />
+                        <peli idpeli="peli6" />
+                    </favs>
+                </user>
+                <user id="u3">
+                    <nombre>maria</nombre>
+                    <fechanacimiento>2014-12-23</fechanacimiento>
+                    <favs>
+                        <peli idpeli="peli7" />
+                        <peli idpeli="peli8" />
+                        <peli idpeli="peli9" />
+                    </favs>
+                </user>
+            </usuarios>
+        </cuenta>
+    </cuentas>
+    <top5>
+        <peli idpeli="peli1" />
+        <peli idpeli="peli2" />
+        <peli idpeli="peli3" />
+        <peli idpeli="peli4" />
+        <peli idpeli="peli5" />
+    </top5>
+    <cartelera>
+        <pelicula id="peli1" categoria="ciberpuk">
+            <titulo>Blade Runner</titulo>
+            <director>Ridley Scott</director>
+            <anio>1982</anio>
+            <sinopsis>En un futuro distópico, un cazador de androides persigue a replicantes
+                fugitivos en Los Ángeles.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli2" categoria="ciberpuk">
+            <titulo >Matrix</titulo>
+            <director>Lana y Lilly Wachowski</director>
+            <anio>1999</anio>
+            <sinopsis>Un hacker descubre que la realidad en la que vive es una simulación controlada
+                por máquinas inteligentes.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli3" categoria="espacio">
+            <titulo>Interstellar</titulo>
+            <director>Christopher Nolan</director>
+            <anio>2014</anio>
+            <sinopsis>Un grupo de exploradores viaja a través de un agujero de gusano en busca de un
+                nuevo hogar para la humanidad.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+
+        <pelicula id="peli4" categoria="ciberpuk">
+            <titulo>Star Wars: Episodio IV - Una nueva esperanza</titulo>
+            <director>George Lucas</director>
+            <anio>1977</anio>
+            <sinopsis>En una galaxia muy, muy lejana, un granjero se une a la Alianza Rebelde para
+                luchar contra el Imperio Galáctico.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli5" categoria="futuro">
+            <titulo>Inception</titulo>
+            <director>Christopher Nolan</director>
+            <anio>2010</anio>
+            <sinopsis>Un ladrón experto roba secretos del subconsciente durante el sueño de las
+                personas.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli6" categoria="animacion">
+            <titulo>Avatar</titulo>
+            <director>James Cameron</director>
+            <anio>2009</anio>
+            <sinopsis>En el planeta Pandora, un exmarine se involucra en un conflicto entre humanos
+                y la raza indígena Na'vi.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli7" categoria="ciberpuk">
+            <titulo>Terminator 2: Judgment Day</titulo>
+            <director>James Cameron</director>
+            <anio>1991</anio>
+            <sinopsis>Un cyborg es enviado desde el futuro para proteger a un joven líder de la
+                resistencia humana contra un cyborg asesino.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli8" categoria="ciberpuk">
+            <titulo>The Matrix Reloaded</titulo>
+            <director>Lana y Lilly Wachowski</director>
+            <anio>2003</anio>
+            <sinopsis>Neo y los demás buscan el camino hacia la fuente central de la Matrix mientras
+                son perseguidos por agentes del sistema.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli9" categoria="ciberpuk">
+            <titulo>The Matrix Revolutions</titulo>
+            <director>Lana y Lilly Wachowski</director>
+            <anio>2003</anio>
+            <sinopsis>Neo se enfrenta al Arquitecto mientras Zion se prepara para la invasión de las
+                máquinas.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli10" categoria="espacio">
+            <titulo>E.T., el extraterrestre</titulo>
+            <director>Steven Spielberg</director>
+            <anio>1982</anio>
+            <sinopsis>Un niño encuentra a un amistoso extraterrestre y lo ayuda a regresar a su
+                planeta mientras es perseguido por autoridades.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli11" categoria="espacio">
+            <titulo>Alien</titulo>
+            <director>Ridley Scott</director>
+            <anio>1979</anio>
+            <sinopsis>La tripulación de una nave espacial comercial descubre una forma de vida
+                alienígena hostil.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli12" categoria="espacio">
+            <titulo>2001: A Space Odyssey</titulo>
+            <director>Stanley Kubrick</director>
+            <anio>1968</anio>
+            <sinopsis>La tripulación de una nave espacial investiga un misterioso monolito que
+                parece influir en la evolución humana.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+        <pelicula id="peli13" categoria="futuro">
+            <titulo>Back to the Future</titulo>
+            <director>Robert Zemeckis</director>
+            <anio>1985</anio>
+            <sinopsis>Un adolescente viaja en el tiempo a través de un DeLorean modificado inventado
+                por un excéntrico científico.</sinopsis>
+            <edadrecomendada>16</edadrecomendada>
+        </pelicula>
+    </cartelera>
+</netflix>

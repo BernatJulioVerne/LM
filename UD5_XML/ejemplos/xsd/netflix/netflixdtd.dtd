@@ -1,0 +1,26 @@
+<!ELEMENT netflix (cuentas,top5,cartelera)>
+<!ELEMENT cuentas (cuenta*)>
+<!ELEMENT cuenta (precio,email,passwod,usuarios)>
+<!ATTLIST cuenta id ID #REQUIRED>
+<!ATTLIST cuenta cuentabancaria NMTOKEN #REQUIRED>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT passwod (#PCDATA)>
+<!ELEMENT usuarios (user+)>
+<!ELEMENT user (nombre,fechanacimiento,favs)>
+<!ATTLIST user id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fechanacimiento (#PCDATA)>
+<!ELEMENT favs (peli+)>
+<!ELEMENT peli EMPTY>
+<!ATTLIST peli idpeli IDREF #REQUIRED>
+<!ELEMENT top5 (peli+)>
+<!ELEMENT cartelera (pelicula+)>
+<!ELEMENT pelicula (titulo,director,anio,sinopsis,edadrecomendada)>
+<!ATTLIST pelicula id ID #IMPLIED>
+<!ATTLIST pelicula categoria (animacion|ciberpuk|espacio|futuro) #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT edadrecomendada (#PCDATA)>
