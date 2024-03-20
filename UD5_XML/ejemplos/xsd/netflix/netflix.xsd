@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="peli">
+    <xs:complexType>
+        <xs:attribute name="idpeli" type="xs:IDREF" />
+    </xs:complexType>
+</xs:element>
+<xs:element name="user">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="fechanacimiento" type="xs:date"></xs:element>
+            <xs:element name ="favs"  >
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="peli" maxOccurs="unbounded">
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type = "xs:ID">
 
-
-
+        </xs:attribute>
+    </xs:complexType>
+</xs:element>
+<xs:element name="cuenta">
+    <xs:complexType>
+        
+    </xs:complexType>
+</xs:element>
 </xs:schema>
