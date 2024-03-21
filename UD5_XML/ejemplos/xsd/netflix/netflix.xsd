@@ -1,32 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="peli">
-    <xs:complexType>
-        <xs:attribute name="idpeli" type="xs:IDREF" />
-    </xs:complexType>
-</xs:element>
-<xs:element name="user">
-    <xs:complexType>
-        <xs:sequence>
-            <xs:element name="nombre" type="xs:string"></xs:element>
-            <xs:element name="fechanacimiento" type="xs:date"></xs:element>
-            <xs:element name ="favs"  >
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element ref="peli" maxOccurs="unbounded">
-                        </xs:element>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-        </xs:sequence>
-        <xs:attribute name="id" type = "xs:ID">
+    <xs:element name="peli">
+        <xs:complexType>
+            <xs:attribute name="idpeli" type="xs:IDREF" />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="user">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="fechanacimiento" type="xs:date"></xs:element>
+                <xs:element name="favs">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="peli" maxOccurs="unbounded">
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID">
 
-        </xs:attribute>
-    </xs:complexType>
-</xs:element>
-<xs:element name="cuenta">
-    <xs:complexType>
-        
-    </xs:complexType>
-</xs:element>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="cuenta">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="precio" type="xs:float"></xs:element>
+                <xs:element name="dni">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[0-9]{8}[A-Z]" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="email" >
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}"></xs:pattern>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="passwod">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="8"></xs:minLength>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="usuarios">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="user" maxOccurs="4"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

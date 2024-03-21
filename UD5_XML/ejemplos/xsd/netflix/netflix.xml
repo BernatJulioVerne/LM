@@ -5,10 +5,8 @@
         <cuenta id="c1" cuentabancaria="ES96-3440-5514-00-00021620">
             <precio>16.99</precio>
             <dni>12345678A</dni>
-            <email>
-                user@correo.com
-            </email>
-            <passwod>12345678</passwod>
+            <email>user@correo.com</email>
+            <passwod>1234</passwod>
             <usuarios>
                 <user id="u1">
                     <nombre>pepe</nombre>
