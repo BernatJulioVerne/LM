@@ -1,0 +1,354 @@
+<arepazo>
+
+    <menu id="1" tipo="Comida">
+        <nombre>Albina</nombre>
+        <descripcion>(Arepa con Queso Blanco</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.10">Queso</ingrediente>
+    </menu>
+    <menu id="2" tipo="Comida">
+        <nombre>Pajaro Albino</nombre>
+        <descripcion>(Arepa con queso blanci y Perico)</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Caballa</ingrediente>
+    </menu>
+    <menu id="3" tipo="Comida">
+        <nombre>Domino</nombre>
+        <descripcion>(Arepa con Queso y frijoles</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Frijoles</ingrediente>
+    </menu>
+    <menu id="4" tipo="Comida">
+        <nombre>New York</nombre>
+        <descripcion>(Arepa con Queso Blanco y York</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">York</ingrediente>
+    </menu>
+    <menu id="5" tipo="Comida">
+        <nombre>Catira</nombre>
+        <descripcion>(Arepa con pollo mechado</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.10">Pollo Mechado</ingrediente>
+    </menu>
+    <menu id="6" tipo="Comida">
+        <nombre>Pelua</nombre>
+        <descripcion>(Arepa con ternera mechada</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.10">Ternera Mechada</ingrediente>
+    </menu>
+    <menu id="7" tipo="Comida">
+        <nombre>Arepazo</nombre>
+        <descripcion>(Arepa con pollo y ternera mechada, aguatate y queso</descripcion>
+        <precio>4.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Aguacate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Pollo Mechado</ingrediente>
+        <ingrediente cantidad="0.05">Ternera Mechada</ingrediente>
+    </menu>
+    <menu id="8" tipo="Comida">
+        <nombre>Arepazo Venezuela</nombre>
+        <descripcion>(Arepa con Ternera mechada,frijoles negros, aguatate y queso</descripcion>
+        <precio>4.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Aguacate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Ternera Mechada</ingrediente>
+        <ingrediente cantidad="0.05">Frijoles</ingrediente>
+    </menu>
+    <menu id="9" tipo="Comida">
+        <nombre>Vegatariana</nombre>
+        <descripcion>(Arepa con Queso, huevo,lechuga y tomate</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Tomate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Lechuga</ingrediente>
+        <ingrediente cantidad="0.10">Huevo</ingrediente>
+    </menu>
+    <menu id="10" tipo="Comida">
+        <nombre>Reina Pepiada</nombre>
+        <descripcion>(Arepa Pollo mechado,Aguacate y Mahonesa</descripcion>
+        <precio>3.50</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.10">Aguacate</ingrediente>
+        <ingrediente cantidad="0.10">Pollo Mechado</ingrediente>
+        <ingrediente cantidad="0.02">Mayonesa</ingrediente>
+    </menu>
+    <menu id="11" tipo="Comida">
+        <nombre>Sabrosita</nombre>
+        <descripcion>(Arepa con queso,york,tomate,lechuga y salsa coctel</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Tomate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">York</ingrediente>
+        <ingrediente cantidad="0.03">Lechuga</ingrediente>
+        <ingrediente cantidad="0.05">Salsa Cocktel</ingrediente>
+    </menu>
+    <menu id="12" tipo="Comida">
+        <nombre>La Guara</nombre>
+        <descripcion>(Arepa con Maduro,aguacate,queso fresco</descripcion>
+        <precio>3.50</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Aguacate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Maduro</ingrediente>
+    </menu>
+    <menu id="13" tipo="Comida">
+        <nombre>La Viuda</nombre>
+        <descripcion>(Arepa con Queso Blanco</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+    </menu>
+    <menu id="14" tipo="Comida">
+        <nombre>La Criollita</nombre>
+        <descripcion>(Arepa con Queso, ternera asada,aguacate y tomate</descripcion>
+        <precio>3.00</precio>
+        <ingrediente cantidad="0.10">Masa arepa</ingrediente>
+        <ingrediente cantidad="0.05">Aguacate</ingrediente>
+        <ingrediente cantidad="0.05">Tomate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Ternera asada</ingrediente>
+    </menu>
+    <menu id="15" tipo="Comida">
+        <nombre>Sola</nombre>
+        <descripcion>Cachapa solitaria</descripcion>
+        <precio>2.00</precio>
+        <ingrediente cantidad="0.10">Masa Cachapa</ingrediente>
+    </menu>
+    <menu id="16" tipo="Comida">
+        <nombre>Arepazo</nombre>
+        <descripcion>Cachapa con queso,ternera y pollo mechado y aguacate</descripcion>
+        <precio>5.00</precio>
+        <ingrediente cantidad="0.05">Aguacate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Pollo Mechado</ingrediente>
+        <ingrediente cantidad="0.05">Ternera Mechada</ingrediente>
+        <ingrediente cantidad="0.10">Masa Cachapa</ingrediente>
+    </menu>
+    <menu id="17" tipo="Comida">
+        <nombre>Criolla</nombre>
+        <descripcion>Cachapa con ternera asada, aguacate, tomate y queso</descripcion>
+        <precio>5.00</precio>
+        <ingrediente cantidad="0.05">Aguacate</ingrediente>
+        <ingrediente cantidad="0.05">Tomate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Ternera asada</ingrediente>
+        <ingrediente cantidad="0.10">Maduro</ingrediente>
+    </menu>
+    <menu id="18" tipo="Comida">
+        <nombre>Vegana</nombre>
+        <descripcion>Cachapa con Maduro,aguacate tomate y lechuga</descripcion>
+        <precio>4.50</precio>
+        <ingrediente cantidad="0.05">Tomate</ingrediente>
+        <ingrediente cantidad="0.05">Queso</ingrediente>
+        <ingrediente cantidad="0.05">Lechuga</ingrediente>
+        <ingrediente cantidad="0.10">Huevo</ingrediente>
+        <ingrediente cantidad="0.10">Maduro</ingrediente>
+    </menu>
+    <menu id="19" tipo="Comida">
+        <nombre>Tequeños</nombre>
+        <descripcion>6 unidades de riquisimos Tequeños rellenos de queso</descripcion>
+        <precio>4.50</precio>
+        <ingrediente cantidad="0.30">Tequeños</ingrediente>
+    </menu>
+    <menu id="20" tipo="Comida">
+        <nombre>Patacon Mixto</nombre>
+        <descripcion>Maduro frito con queso y pollo mechado</descripcion>
+        <precio>4.50</precio>
+        <ingrediente cantidad="0.30">Queso</ingrediente>
+        <ingrediente cantidad="0.30">Pollo Mechado</ingrediente>
+        <ingrediente cantidad="0.30">Maduro</ingrediente>
+    </menu>
+    <menu id="21" tipo="Comida">
+        <nombre>Yuca frita</nombre>
+        <descripcion>Yuca frita, nuestras patatas fritas</descripcion>
+        <precio>4.50</precio>
+        <ingrediente cantidad="0.60">Yuca</ingrediente>
+    </menu>
+    <menu id="22" tipo="Comida">
+        <nombre>Maduro</nombre>
+        <descripcion>Maduro con queso</descripcion>
+        <precio>4.50</precio>
+        <ingrediente cantidad="0.50">Queso</ingrediente>
+        <ingrediente cantidad="0.50">Maduro</ingrediente>
+    </menu>
+    <menu id="23" tipo="Comida">
+        <nombre>Alitas de Pollo</nombre>
+        <descripcion>Por si te quedas con hambre</descripcion>
+        <precio>5.99</precio>
+        <ingrediente cantidad="0.75">Alitas Pollo</ingrediente>
+    </menu>
+    <menu id="24" tipo="Postres">
+        <nombre>Tarta de queso</nombre>
+        <descripcion>Casera, especialidad de la casa</descripcion>
+        <precio>3.49</precio>
+        <ingrediente cantidad="0.20">Queso</ingrediente>
+        <ingrediente cantidad="0.10">Huevo</ingrediente>
+        <ingrediente cantidad="0.20">Harina</ingrediente>
+    </menu>
+    <menu id="25" tipo="Postres">
+        <nombre>Tarta de manzana</nombre>
+        <descripcion>Casera</descripcion>
+        <precio>2.99</precio>
+        <ingrediente cantidad="0.10">Huevo</ingrediente>
+        <ingrediente cantidad="0.20">Harina</ingrediente>
+        <ingrediente cantidad="0.20">Manzana</ingrediente>
+    </menu>
+    <menu id="26" tipo="Postres">
+        <nombre>Crema catalana</nombre>
+        <descripcion>Casera, especialidad de la casa</descripcion>
+        <precio>2.99</precio>
+        <ingrediente cantidad="0.50">Crema Catalana</ingrediente>
+    </menu>
+    <menu id="27" tipo="Postres">
+        <nombre>Helado</nombre>
+        <descripcion>3 bolas de fresa,chocolate y nata</descripcion>
+        <precio>2.49</precio>
+        <ingrediente cantidad="0.60">Helado</ingrediente>
+    </menu>
+    <menu id="28" tipo="Postres">
+        <nombre>Yogurt con Panela</nombre>
+        <descripcion>Con rica panela para endulzar</descripcion>
+        <precio>1.99</precio>
+        <ingrediente cantidad="0.60">Helado</ingrediente>
+        <ingrediente cantidad="0.10">Panela</ingrediente>
+    </menu>
+    <menu id="29" tipo="Postres">
+        <nombre>Platano con chocolate</nombre>
+        <descripcion>para chuparse los dedos</descripcion>
+        <precio>2.99</precio>
+        <ingrediente cantidad="0.50">Platano</ingrediente>
+        <ingrediente cantidad="0.20">Chocolate</ingrediente>
+    </menu>
+    <menu id="30" tipo="Bebidas">
+        <nombre>Agua grande</nombre>
+        <descripcion>botella 1,5 l</descripcion>
+        <precio>0.99</precio>
+        <ingrediente cantidad="1.50">Agua</ingrediente>
+    </menu>
+    <menu id="31" tipo="Bebidas">
+        <nombre>Agua pequeña</nombre>
+        <descripcion>botella 0,5 l</descripcion>
+        <precio>0.49</precio>
+        <ingrediente cantidad="0.50">Agua</ingrediente>
+    </menu>
+    <menu id="32" tipo="Bebidas">
+        <nombre>Caña</nombre>
+        <descripcion>botella 1,5 l</descripcion>
+        <precio>1.49</precio>
+        <ingrediente cantidad="0.20">Cerveza</ingrediente>
+    </menu>
+    <menu id="33" tipo="Bebidas">
+        <nombre>Refresco Cola</nombre>
+        <descripcion>botella 1,5 l</descripcion>
+        <precio>1.49</precio>
+        <ingrediente cantidad="0.33">Refresco</ingrediente>
+    </menu>
+    <menu id="34" tipo="Bebidas">
+        <nombre>Refresco Naranja</nombre>
+        <descripcion>botella 1,5 l</descripcion>
+        <precio>1.49</precio>
+        <ingrediente cantidad="0.33">Refresco</ingrediente>
+    </menu>
+    <menu id="35" tipo="Bebidas">
+        <nombre>Refresco Limón</nombre>
+        <descripcion>botella 1,5 l</descripcion>
+        <precio>1.49</precio>
+        <ingrediente cantidad="0.33">Refresco</ingrediente>
+    </menu>
+    <menu id="36" tipo="Bebidas">
+        <nombre>Fresa con leche</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.99</precio>
+        <ingrediente cantidad="0.33">Leche</ingrediente>
+        <ingrediente cantidad="0.33">Fresa</ingrediente>
+    </menu>
+    <menu id="37" tipo="Bebidas">
+        <nombre>Mora con leche</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.99</precio>
+        <ingrediente cantidad="0.33">Leche</ingrediente>
+        <ingrediente cantidad="0.33">Mora</ingrediente>
+    </menu>
+    <menu id="38" tipo="Bebidas">
+        <nombre>Guayaba con leche</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.99</precio>
+        <ingrediente cantidad="0.33">Leche</ingrediente>
+        <ingrediente cantidad="0.33">Guayaba</ingrediente>
+    </menu>
+    <menu id="39" tipo="Bebidas">
+        <nombre>Piña con leche</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.99</precio>
+        <ingrediente cantidad="0.33">Leche</ingrediente>
+        <ingrediente cantidad="0.33">Piña</ingrediente>
+    </menu>
+    <menu id="40" tipo="Bebidas">
+        <nombre>Tomate de arbol con leche</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.99</precio>
+        <ingrediente cantidad="0.33">Leche</ingrediente>
+        <ingrediente cantidad="0.33">Tomate Arbol</ingrediente>
+    </menu>
+    <menu id="41" tipo="Bebidas">
+        <nombre>Mango con leche</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.99</precio>
+        <ingrediente cantidad="0.33">Leche</ingrediente>
+        <ingrediente cantidad="0.33">Mango</ingrediente>
+    </menu>
+    <menu id="42" tipo="Bebidas">
+        <nombre>Fresa con hielo</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.49</precio>
+        <ingrediente cantidad="0.33">Agua</ingrediente>
+        <ingrediente cantidad="0.33">Fresa</ingrediente>
+    </menu>
+    <menu id="43" tipo="Bebidas">
+        <nombre>Mora con hielo</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.49</precio>
+        <ingrediente cantidad="0.33">Agua</ingrediente>
+        <ingrediente cantidad="0.33">Mora</ingrediente>
+    </menu>
+    <menu id="44" tipo="Bebidas">
+        <nombre>Guayaba con hielo</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.49</precio>
+        <ingrediente cantidad="0.33">Agua</ingrediente>
+        <ingrediente cantidad="0.33">Guayaba</ingrediente>
+    </menu>
+    <menu id="45" tipo="Bebidas">
+        <nombre>Piña con hielo</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.49</precio>
+        <ingrediente cantidad="0.33">Agua</ingrediente>
+        <ingrediente cantidad="0.33">Piña</ingrediente>
+    </menu>
+    <menu id="46" tipo="Bebidas">
+        <nombre>Tomate de arbol con hielo</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.49</precio>
+        <ingrediente cantidad="0.33">Agua</ingrediente>
+        <ingrediente cantidad="0.33">Tomate Arbol</ingrediente>
+    </menu>
+    <menu id="47" tipo="Bebidas">
+        <nombre>Mango con hielo</nombre>
+        <descripcion>Baso 0.5 l</descripcion>
+        <precio>3.49</precio>
+        <ingrediente cantidad="0.33">Agua</ingrediente>
+        <ingrediente cantidad="0.33">Mango</ingrediente>
+    </menu>
+</arepazo>
