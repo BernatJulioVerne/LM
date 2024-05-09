@@ -1,0 +1,37 @@
+<juegoPokemon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="juegoPokemon.xsd">
+    <pokedex>
+        <pokemon id="p1">
+            <name>BULBASAUR</name>
+            <type>Grass</type>
+            <type>Poison</type>
+            <exp>1059860</exp>
+            <stats>
+                <HP>45</HP>
+                <ATK>49</ATK>
+                <DEF>49</DEF>
+                <SPD>45</SPD>
+                <SAT>65</SAT>
+                <SDF>65</SDF>
+            </stats>
+        </pokemon>
+        <pokemon id="p4">
+            <name>CHARMANDER</name>
+            <type>Fire</type>
+            <exp>1059860</exp>
+            <stats>
+              <HP>39</HP>
+              <ATK>52</ATK>
+              <DEF>43</DEF>
+              <SPD>65</SPD>
+              <SAT>60</SAT>
+              <SDF>50</SDF>
+            </stats>
+        </pokemon>
+    </pokedex>
+    <batallas>
+        <batalla idpokemon1="p1" idpokemon2="p4">
+            <resultado ganador="p1"></resultado>
+        </batalla>
+    </batallas>
+</juegoPokemon>

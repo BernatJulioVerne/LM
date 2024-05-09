@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iberlibro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="iberlibro.xsd">
+    <librerias>
+        <libreria codigo="l1263">
+            <nombreLibreria>Rayuela</nombreLibreria>
+            <direccion>Juan de Juni, 31</direccion>
+            <telefono>983555555</telefono>
+            <propietario>
+                <nombre>Juanito</nombre>
+                <movil>656222111</movil>
+            </propietario>
+            <vende>
+                <tengolibro isbn="i9781231234123">
+                    <cantidad>5</cantidad>
+                </tengolibro>
+                <tengolibro isbn="i9781231237123">
+                    <cantidad>3</cantidad>
+                </tengolibro>
+            </vende>
+        </libreria>
+    </librerias>
+    <libros>
+        <libro isbn="i9781231234123">
+            <formato>
+                <papel>
+                    <encuadernacion>Rústica</encuadernacion>
+                    <numPaginas>132</numPaginas>
+                </papel>
+            </formato>
+            <titulo>Cien años de soledad</titulo>
+            <autor>Gabriel García Márquez</autor>
+            <publicacion>1967</publicacion>
+            <precio>23,50</precio>
+        </libro>
+        <libro isbn="i9781231237123">
+            <formato>
+                <ebook>
+                    <urlDescarga><![CDATA[http://url.com/sdfsfsd?sdfsfd=edfrde]]></urlDescarga>
+                </ebook>
+            </formato>
+            <titulo>Sin noticias de gurb</titulo>
+            <autor>Eduardo Mendoza</autor>
+            <publicacion>1977</publicacion>
+            <precio>13,00</precio>
+        </libro>
+    </libros>
+</iberlibro>
