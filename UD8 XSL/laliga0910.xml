@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="equipos.xsl"?>
+<laliga>
+    <equipos>
+        <equipo id="e530">
+            <nombre>Almeria</nombre>
+            <ciudad>Almeria</ciudad>
+            <capacidad>25000</capacidad>
+        </equipo>
+        <equipo id="e92">
+            <nombre>Espanyol</nombre>
+            <ciudad>Catalonia</ciudad>
+            <capacidad>40000</capacidad>
+        </equipo>
+        <equipo id="e172">
+            <nombre>Mallorca</nombre>
+            <ciudad>Palma de Mallorca</ciudad>
+            <capacidad>23142</capacidad>
+        </equipo>
+        <equipo id="e168">
+            <nombre>Malaga</nombre>
+            <ciudad>Malaga</ciudad>
+            <capacidad>29000</capacidad>
+        </equipo>
+        <equipo id="e210">
+            <nombre>Osasuna</nombre>
+            <ciudad>Pamplona</ciudad>
+            <capacidad>19500</capacidad>
+        </equipo>
+        <equipo id="e260">
+            <nombre>Sporting Gijon</nombre>
+            <ciudad>Gijon</ciudad>
+            <capacidad>25585</capacidad>
+        </equipo>
+        <equipo id="e19">
+            <nombre>Athletic Club Bilbao</nombre>
+            <ciudad>Bibao</ciudad>
+            <capacidad>39750</capacidad>
+        </equipo>
+        <equipo id="e224">
+            <nombre>Racing Santander</nombre>
+            <ciudad>Santander</ciudad>
+            <capacidad>22271</capacidad>
+        </equipo>
+        <equipo id="e231">
+            <nombre>Real Zaragoza</nombre>
+            <ciudad>Zaragoza</ciudad>
+            <capacidad>34600</capacidad>
+        </equipo>
+        <equipo id="e269">
+            <nombre>Tenerife</nombre>
+            <ciudad>Tenerife,</ciudad>
+            <capacidad>24000</capacidad>
+        </equipo>
+        <equipo id="e111">
+            <nombre>Getafe</nombre>
+            <ciudad>Getafe</ciudad>
+            <capacidad>16300</capacidad>
+        </equipo>
+        <equipo id="e288">
+            <nombre>Valladolid</nombre>
+            <ciudad>Valladolid</ciudad>
+            <capacidad>26512</capacidad>
+        </equipo>
+        <equipo id="e549">
+            <nombre>Xerez CD</nombre>
+            <ciudad>Andalusia</ciudad>
+            <capacidad>20300</capacidad>
+        </equipo>
+        <equipo id="e296">
+            <nombre>Villarreal</nombre>
+            <ciudad>Villarreal</ciudad>
+            <capacidad>23000</capacidad>
+        </equipo>
+        <equipo id="e20">
+            <nombre>Athletico Madrid</nombre>
+            <ciudad>Madrid</ciudad>
+            <capacidad>54851</capacidad>
+        </equipo>
+        <equipo id="e82">
+            <nombre>Deportivo LaCoruna</nombre>
+            <ciudad>La Coruna</ciudad>
+            <capacidad>34600</capacidad>
+        </equipo>
+        <equipo id="e287">
+            <nombre>Valencia</nombre>
+            <ciudad>Valencia</ciudad>
+            <capacidad>55000</capacidad>
+        </equipo>
+        <equipo id="e25">
+            <nombre>Barcelona</nombre>
+            <ciudad>Barcelona</ciudad>
+            <capacidad>98772</capacidad>
+        </equipo>
+        <equipo id="e248">
+            <nombre>FC Sevilla</nombre>
+            <ciudad>Seville</ciudad>
+            <capacidad>45500</capacidad>
+        </equipo>
+        <equipo id="e228">
+            <nombre>Real Madrid</nombre>
+            <ciudad>Madrid</ciudad>
+            <capacidad>80400</capacidad>
+        </equipo>
+    </equipos>
+    <partidos>
+        <partido id="p42732">
+            <fecha>2009-08-29T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="2">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42736">
+            <fecha>2009-08-29T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="0">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42733">
+            <fecha>2009-08-30T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="1">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42734">
+            <fecha>2009-08-30T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="1">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="4">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42735">
+            <fecha>2009-08-30T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="0">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42730">
+            <fecha>2009-08-30T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="2">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="0">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42731">
+            <fecha>2009-08-30T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="3">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="0">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42737">
+            <fecha>2009-08-30T19:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="0">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42739">
+            <fecha>2009-08-31T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="3">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="0">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42746">
+            <fecha>2009-09-12T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="1">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42745">
+            <fecha>2009-09-12T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="4">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42747">
+            <fecha>2009-09-13T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="0">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42748">
+            <fecha>2009-09-13T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="2">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42740">
+            <fecha>2009-09-13T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="1">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42741">
+            <fecha>2009-09-13T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="0">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42742">
+            <fecha>2009-09-13T19:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="2">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="4">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42750">
+            <fecha>2009-09-19T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="2">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="3">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42757">
+            <fecha>2009-09-19T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="4">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="0">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42752">
+            <fecha>2009-09-19T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="2">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42758">
+            <fecha>2009-09-19T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="5">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42759">
+            <fecha>2009-09-20T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="2">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42753">
+            <fecha>2009-09-20T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="3">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42754">
+            <fecha>2009-09-20T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="0">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42751">
+            <fecha>2009-09-20T19:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="5">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="0">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42755">
+            <fecha>2009-09-20T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="2">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42764">
+            <fecha>2009-09-22T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="2">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="0">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42765">
+            <fecha>2009-09-22T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="1">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e25" goles="4">Barcelona</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42770">
+            <fecha>2009-09-23T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="2">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42760">
+            <fecha>2009-09-23T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="2">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42762">
+            <fecha>2009-09-23T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="2">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42763">
+            <fecha>2009-09-23T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="0">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42767">
+            <fecha>2009-09-23T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="3">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="1">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p44339">
+            <fecha>2009-09-24T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p44344">
+            <fecha>2009-09-26T16:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="0">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p44345">
+            <fecha>2009-09-26T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42773">
+            <fecha>2009-09-27T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="3">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="0">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42774">
+            <fecha>2009-09-27T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="2">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="2">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42776">
+            <fecha>2009-09-27T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="0">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42780">
+            <fecha>2009-09-27T19:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="3">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="0">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42779">
+            <fecha>2009-09-27T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="0">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42787">
+            <fecha>2009-10-03T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="1">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="0">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42781">
+            <fecha>2009-10-03T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42789">
+            <fecha>2009-10-04T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="4">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42790">
+            <fecha>2009-10-04T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="2">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="2">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42784">
+            <fecha>2009-10-04T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42786">
+            <fecha>2009-10-04T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="1">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42782">
+            <fecha>2009-10-04T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="2">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="1">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42796">
+            <fecha>2009-10-17T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="0">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42794">
+            <fecha>2009-10-17T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="4">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="2">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42793">
+            <fecha>2009-10-18T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="2">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42795">
+            <fecha>2009-10-18T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="3">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="1">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42797">
+            <fecha>2009-10-18T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="2">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="1">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42799">
+            <fecha>2009-10-18T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="2">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42801">
+            <fecha>2009-10-18T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="2">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="2">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42800">
+            <fecha>2009-10-18T19:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="2">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42791">
+            <fecha>2009-10-18T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="3">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="0">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42803">
+            <fecha>2009-10-24T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42804">
+            <fecha>2009-10-25T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="1">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42806">
+            <fecha>2009-10-25T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42807">
+            <fecha>2009-10-25T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="0">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42808">
+            <fecha>2009-10-25T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="0">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42809">
+            <fecha>2009-10-25T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="4">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="0">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42810">
+            <fecha>2009-10-25T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="6">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42821">
+            <fecha>2009-10-31T15:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="2">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="0">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42816">
+            <fecha>2009-10-31T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e25" goles="1">Barcelona</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42822">
+            <fecha>2009-10-31T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="0">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42823">
+            <fecha>2009-11-01T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="1">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42814">
+            <fecha>2009-11-01T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="0">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42815">
+            <fecha>2009-11-01T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="5">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="0">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42819">
+            <fecha>2009-11-01T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="2">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42818">
+            <fecha>2009-11-01T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42827">
+            <fecha>2009-11-07T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="2">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="2">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42832">
+            <fecha>2009-11-07T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="4">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="2">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42824">
+            <fecha>2009-11-07T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42830">
+            <fecha>2009-11-08T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="2">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="0">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42831">
+            <fecha>2009-11-08T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="0">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42826">
+            <fecha>2009-11-08T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="3">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42825">
+            <fecha>2009-11-08T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="3">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42839">
+            <fecha>2009-11-21T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="2">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42844">
+            <fecha>2009-11-21T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="2">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42842">
+            <fecha>2009-11-21T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="1">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="0">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42836">
+            <fecha>2009-11-21T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e25" goles="1">Barcelona</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42841">
+            <fecha>2009-11-22T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="3">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42835">
+            <fecha>2009-11-22T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="3">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42837">
+            <fecha>2009-11-22T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42845">
+            <fecha>2009-11-22T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="3">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42847">
+            <fecha>2009-11-28T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="0">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42846">
+            <fecha>2009-11-28T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="1">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42850">
+            <fecha>2009-11-28T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="2">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="2">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42851">
+            <fecha>2009-11-29T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="1">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="0">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42853">
+            <fecha>2009-11-29T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="5">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="1">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42855">
+            <fecha>2009-11-29T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="3">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="3">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42848">
+            <fecha>2009-11-29T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="4">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="0">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42849">
+            <fecha>2009-11-29T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="4">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42856">
+            <fecha>2009-12-02T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="2">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="0">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42863">
+            <fecha>2009-12-05T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42861">
+            <fecha>2009-12-05T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="4">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="2">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42864">
+            <fecha>2009-12-05T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e25" goles="3">Barcelona</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42865">
+            <fecha>2009-12-06T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42866">
+            <fecha>2009-12-06T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="4">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42860">
+            <fecha>2009-12-06T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="2">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42857">
+            <fecha>2009-12-06T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="3">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42862">
+            <fecha>2009-12-06T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42871">
+            <fecha>2009-12-12T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="2">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42874">
+            <fecha>2009-12-12T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="1">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="0">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42868">
+            <fecha>2009-12-12T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42869">
+            <fecha>2009-12-13T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42867">
+            <fecha>2009-12-13T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42872">
+            <fecha>2009-12-13T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="3">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="2">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42873">
+            <fecha>2009-12-13T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42875">
+            <fecha>2009-12-13T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42890">
+            <fecha>2009-12-19T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="2">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="0">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42887">
+            <fecha>2009-12-19T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42885">
+            <fecha>2009-12-19T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="6">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="0">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42888">
+            <fecha>2009-12-20T05:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="2">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="0">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42886">
+            <fecha>2009-12-20T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="2">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42877">
+            <fecha>2009-12-20T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="0">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42878">
+            <fecha>2009-12-20T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="2">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42884">
+            <fecha>2009-12-20T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42879">
+            <fecha>2010-01-02T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="1">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="0">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42895">
+            <fecha>2010-01-02T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="1">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="1">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42883">
+            <fecha>2010-01-02T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42881">
+            <fecha>2010-01-03T16:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="2">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="0">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42882">
+            <fecha>2010-01-03T16:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="0">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42892">
+            <fecha>2010-01-03T16:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="2">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="2">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42893">
+            <fecha>2010-01-03T16:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="1">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="0">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42891">
+            <fecha>2010-01-03T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="2">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="0">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42903">
+            <fecha>2010-01-09T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="2">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42896">
+            <fecha>2010-01-09T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="1">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42897">
+            <fecha>2010-01-10T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42904">
+            <fecha>2010-01-10T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="2">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42905">
+            <fecha>2010-01-10T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="0">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42902">
+            <fecha>2010-01-10T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="0">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42900">
+            <fecha>2010-01-10T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="1">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="3">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42898">
+            <fecha>2010-01-10T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="2">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="0">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42906">
+            <fecha>2010-01-16T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="2">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="0">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42914">
+            <fecha>2010-01-16T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="0">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42913">
+            <fecha>2010-01-16T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="4">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="0">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42912">
+            <fecha>2010-01-17T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="2">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="0">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42909">
+            <fecha>2010-01-17T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42910">
+            <fecha>2010-01-17T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="0">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42907">
+            <fecha>2010-01-17T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="1">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42908">
+            <fecha>2010-01-17T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="3">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="2">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42911">
+            <fecha>2010-01-17T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="4">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="1">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42924">
+            <fecha>2010-01-23T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="0">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42923">
+            <fecha>2010-01-23T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="3">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42916">
+            <fecha>2010-01-24T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="1">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42920">
+            <fecha>2010-01-24T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="4">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="2">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42922">
+            <fecha>2010-01-24T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="1">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="2">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42925">
+            <fecha>2010-01-24T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="1">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="0">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42918">
+            <fecha>2010-01-24T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="2">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="0">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42933">
+            <fecha>2010-01-30T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="1">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="0">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42934">
+            <fecha>2010-01-30T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42935">
+            <fecha>2010-01-31T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42929">
+            <fecha>2010-01-31T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="3">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42927">
+            <fecha>2010-01-31T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="2">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42931">
+            <fecha>2010-01-31T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="2">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="1">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42939">
+            <fecha>2010-02-06T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="0">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42936">
+            <fecha>2010-02-06T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="2">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="1">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42940">
+            <fecha>2010-02-06T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="0">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42943">
+            <fecha>2010-02-07T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="0">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42944">
+            <fecha>2010-02-07T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="0">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42937">
+            <fecha>2010-02-07T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="3">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="2">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42938">
+            <fecha>2010-02-07T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="3">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42942">
+            <fecha>2010-02-07T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="2">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42945">
+            <fecha>2010-02-07T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="1">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42946">
+            <fecha>2010-02-13T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="1">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42947">
+            <fecha>2010-02-13T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42948">
+            <fecha>2010-02-14T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42953">
+            <fecha>2010-02-14T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="2">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42955">
+            <fecha>2010-02-14T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="2">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="0">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42950">
+            <fecha>2010-02-14T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="0">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42951">
+            <fecha>2010-02-14T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e25" goles="1">Barcelona</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42954">
+            <fecha>2010-02-15T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="0">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42958">
+            <fecha>2010-02-20T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="2">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="1">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42962">
+            <fecha>2010-02-20T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="4">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="0">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42965">
+            <fecha>2010-02-20T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="3">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42963">
+            <fecha>2010-02-21T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="4">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42964">
+            <fecha>2010-02-21T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="2">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="1">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42956">
+            <fecha>2010-02-21T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42957">
+            <fecha>2010-02-21T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="3">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42959">
+            <fecha>2010-02-21T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="0">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42960">
+            <fecha>2010-02-21T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="6">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42961">
+            <fecha>2010-02-22T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="1">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42966">
+            <fecha>2010-02-27T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="5">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42975">
+            <fecha>2010-02-27T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="2">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42969">
+            <fecha>2010-02-28T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="1">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="0">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42970">
+            <fecha>2010-02-28T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="1">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="1">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42971">
+            <fecha>2010-02-28T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="2">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42974">
+            <fecha>2010-02-28T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="3">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="2">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42967">
+            <fecha>2010-02-28T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="4">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="1">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42978">
+            <fecha>2010-03-06T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="3">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42979">
+            <fecha>2010-03-06T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="2">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e25" goles="2">Barcelona</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42982">
+            <fecha>2010-03-06T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="2">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42983">
+            <fecha>2010-03-07T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="2">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="4">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42976">
+            <fecha>2010-03-07T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="3">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="0">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42984">
+            <fecha>2010-03-07T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="2">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="0">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42977">
+            <fecha>2010-03-07T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p44505">
+            <fecha>2010-03-13T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="3">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="0">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p44485">
+            <fecha>2010-03-13T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42986">
+            <fecha>2010-03-14T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="0">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42988">
+            <fecha>2010-03-14T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="0">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42995">
+            <fecha>2010-03-14T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="4">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="1">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42991">
+            <fecha>2010-03-14T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="3">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="0">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42990">
+            <fecha>2010-03-14T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="1">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="4">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42989">
+            <fecha>2010-03-15T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="0">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43002">
+            <fecha>2010-03-20T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="2">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43004">
+            <fecha>2010-03-20T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="2">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43000">
+            <fecha>2010-03-20T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="1">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43005">
+            <fecha>2010-03-20T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="2">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="0">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43001">
+            <fecha>2010-03-21T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="4">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43003">
+            <fecha>2010-03-21T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="3">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42996">
+            <fecha>2010-03-21T17:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="2">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="0">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42999">
+            <fecha>2010-03-21T19:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="0">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p42997">
+            <fecha>2010-03-21T21:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="2">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e25" goles="4">Barcelona</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43013">
+            <fecha>2010-03-23T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="2">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43012">
+            <fecha>2010-03-23T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="1">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43010">
+            <fecha>2010-03-24T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="2">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43006">
+            <fecha>2010-03-24T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="2">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="0">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43007">
+            <fecha>2010-03-24T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="2">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="0">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43014">
+            <fecha>2010-03-24T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="1">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="0">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43015">
+            <fecha>2010-03-25T20:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="4">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43008">
+            <fecha>2010-03-25T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="0">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43022">
+            <fecha>2010-03-27T18:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43021">
+            <fecha>2010-03-27T22:00:00+01:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="3">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="0">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43020">
+            <fecha>2010-03-28T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="1">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="0">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43023">
+            <fecha>2010-03-28T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="3">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43017">
+            <fecha>2010-03-28T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="3">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e288" goles="0">Valladolid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43018">
+            <fecha>2010-03-28T19:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="3">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="0">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43019">
+            <fecha>2010-03-28T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="3">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="2">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43025">
+            <fecha>2010-03-29T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="4">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="3">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43032">
+            <fecha>2010-04-03T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="2">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="0">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43030">
+            <fecha>2010-04-03T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="4">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="1">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43034">
+            <fecha>2010-04-03T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="3">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="0">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43031">
+            <fecha>2010-04-04T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="3">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="0">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43033">
+            <fecha>2010-04-04T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="1">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="1">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43028">
+            <fecha>2010-04-04T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43029">
+            <fecha>2010-04-04T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e260" goles="2">Sporting Gijon</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="2">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43035">
+            <fecha>2010-04-04T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="3">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="0">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43038">
+            <fecha>2010-04-10T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="2">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43045">
+            <fecha>2010-04-10T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="1">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="0">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43039">
+            <fecha>2010-04-11T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e19" goles="4">Athletic Club Bilbao</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43040">
+            <fecha>2010-04-11T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="2">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e231" goles="0">Real Zaragoza</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43036">
+            <fecha>2010-04-11T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e82" goles="1">Deportivo LaCoruna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="1">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43041">
+            <fecha>2010-04-11T19:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e92" goles="3">Espanyol</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="0">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43037">
+            <fecha>2010-04-11T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="3">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43051">
+            <fecha>2010-04-13T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e288" goles="2">Valladolid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="1">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43047">
+            <fecha>2010-04-13T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="3">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="0">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43048">
+            <fecha>2010-04-14T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43050">
+            <fecha>2010-04-14T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="2">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43055">
+            <fecha>2010-04-14T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e210" goles="2">Osasuna</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="2">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43053">
+            <fecha>2010-04-14T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="3">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e92" goles="1">Espanyol</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43049">
+            <fecha>2010-04-14T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="3">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="0">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43046">
+            <fecha>2010-04-15T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e530" goles="1">Almeria</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="2">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43052">
+            <fecha>2010-04-15T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="2">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e19" goles="0">Athletic Club Bilbao</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43060">
+            <fecha>2010-04-17T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e248" goles="3">FC Sevilla</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e260" goles="0">Sporting Gijon</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43062">
+            <fecha>2010-04-17T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e20" goles="1">Athletico Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43065">
+            <fecha>2010-04-18T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e269" goles="3">Tenerife</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e111" goles="2">Getafe</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43061">
+            <fecha>2010-04-18T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e549" goles="2">Xerez CD</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e224" goles="2">Racing Santander</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43059">
+            <fecha>2010-04-18T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e228" goles="2">Real Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e287" goles="0">Valencia</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43064">
+            <fecha>2010-04-19T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="2">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e210" goles="0">Osasuna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43075">
+            <fecha>2010-04-24T18:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e25" goles="3">Barcelona</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e549" goles="1">Xerez CD</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43069">
+            <fecha>2010-04-24T20:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e231" goles="1">Real Zaragoza</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e228" goles="2">Real Madrid</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43070">
+            <fecha>2010-04-24T22:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e287" goles="1">Valencia</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e82" goles="0">Deportivo LaCoruna</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43072">
+            <fecha>2010-04-25T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e224" goles="1">Racing Santander</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e296" goles="2">Villarreal</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43073">
+            <fecha>2010-04-25T17:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e172" goles="1">Mallorca</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e168" goles="1">Malaga</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43067">
+            <fecha>2010-04-25T19:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e20" goles="3">Athletico Madrid</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e269" goles="1">Tenerife</nombre>
+            </visitante>
+        </partido>
+        <partido id="p43066">
+            <fecha>2010-04-25T21:00:00+02:00</fecha>
+            <local>
+               <nombre idEquipo="e111" goles="4">Getafe</nombre>
+            </local>
+            <visitante>
+               <nombre idEquipo="e248" goles="3">FC Sevilla</nombre>
+            </visitante>
+        </partido>
+
+
+    </partidos>
+</laliga>
