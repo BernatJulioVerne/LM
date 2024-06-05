@@ -3,7 +3,7 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h1>Equipos</h1>
+                <h1 style="color:red">Equipos</h1>
                 <table border="1">
                     <tr style="color:blue">
                         <td>Id</td>
@@ -38,13 +38,14 @@
                             <xsl:choose>
                                 <xsl:when test="ciudad='Madrid'">
                                     <td style="background-color:red;width:20px"></td>
+
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <td></td>
                                 </xsl:otherwise>
                             </xsl:choose>
                             <td>
-                                <xsl:value-of select="count(/laliga/partidos/partido[local/nombre/@idEquipo=$id])" />
+                                <xsl:value-of select="count(/laliga/partidos/partido[local/nombre/@idEquipo=$id and (local/nombre/@goles= visitante/nombre/@goles)])" />
 
                             </td>
                             <td>
@@ -53,7 +54,24 @@
                             <td>
                                 <xsl:value-of select="count(/laliga/partidos/partido[local/nombre/@idEquipo=$id]) + count(/laliga/partidos/partido[visitante/nombre/@idEquipo=$id])" />
                             </td>   
-                            <td></td>
+                            <td>
+                                 <xsl:value-of select="count(/laliga/partidos/partido
+                                    [
+                                        local/nombre/@idEquipo=$id
+                                        and 
+                                        local/nombre/@goles > visitante/nombre/@goles
+                                    ]
+                                    ) +
+                                    
+                                    count(/laliga/partidos/partido
+                                    [
+                                        visitante/nombre/@idEquipo=$id
+                                        and 
+                                        visitante/nombre/@goles > local/nombre/@goles
+                                    ]
+                                    ) 
+                                    " />
+                           </td>
                             <td></td>
                             <td></td>
                             <td></td>
