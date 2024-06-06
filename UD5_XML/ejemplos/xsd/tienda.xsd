@@ -1,4 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tienda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="productos"></xs:element>
+                <xs:element ref="pedidos"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
 
+    </xs:element>
+
+    <xs:element name="productos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="producto" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="producto">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="nombre"/>
+            <xs:element ref="precio"/>
+            <xs:element name="fecha_lanzamiento" type="mifecha"/>
+            <xs:element ref="categoria" maxOccurs="2" minOccurs="1" />
+
+        </xs:sequence>
+        <xs:attribute name="codigo" type="xs:ID" use="required"></xs:attribute>
+    </xs:complexType>
+    </xs:element>
+
+    <xs:element name="nombre">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="50"></xs:maxLength>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="precio">
+        <xs:simpleType>
+            <xs:restriction base="xs:float">
+               <xs:maxInclusive value="50"></xs:maxInclusive>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    
+        <xs:simpleType name="mifecha">
+            <xs:restriction base="xs:date">
+                <xs:minInclusive value="2023-05-01"></xs:minInclusive>
+            </xs:restriction>
+        </xs:simpleType>
+    
+    <xs:element name="categoria">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+            <xs:enumeration value="Ropa"></xs:enumeration>
+            <xs:enumeration value="Accesorios"></xs:enumeration>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="pedidos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="pedido" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="pedido">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref ="cliente"></xs:element>
+
+                <xs:element name ="fecha" type="mifecha"></xs:element>
+
+                <xs:element ref ="productop"></xs:element>
+
+                <xs:element ref ="cantidad"></xs:element>
+
+                <xs:choice>
+                    <xs:element ref="online"></xs:element>
+                    <xs:element ref ="entienda"></xs:element>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID">
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="online">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="direccionentrega" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="entienda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombreVendedor" type="xs:string"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="cliente">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="100"></xs:maxLength>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="productop">
+       <xs:complexType>
+        <xs:attribute name="idproducto" type="xs:IDREF"></xs:attribute>
+       </xs:complexType>
+    </xs:element>
+    <xs:element name="cantidad">
+        <xs:simpleType>
+            <xs:restriction base="xs:int">
+                <xs:maxExclusive value="10"></xs:maxExclusive>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
 </xs:schema>

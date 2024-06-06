@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="tienda.xsd">
+    xsi:noNamespaceSchemaLocation="tienda.xsd">
     <productos>
-    <producto codigo="p1">
-        <nombre>Camiseta</nombre>
-        <precio>19.99</precio>
-        <fecha_lanzamiento>2023-05-10</fecha_lanzamiento>
-        <categoria>Ropa</categoria>
-    </producto>
-    <producto codigo="p2">
-        <nombre>Pantalones</nombre>
-        <precio>29.99</precio>
-        <fecha_lanzamiento>2023-05-15</fecha_lanzamiento>
-        <categoria>Ropa</categoria>
-        </producto> 
-    <producto codigo="p3">
-        <nombre>Reloj</nombre>
-        <precio>49.99</precio>
-        <fecha_lanzamiento>2023-05-20</fecha_lanzamiento>
-        <categoria>Accesorios</categoria>
-    </producto>
+        <producto codigo="p1">
+            <nombre>Camiseta</nombre>
+            <precio>19.99</precio>
+            <fecha_lanzamiento>2023-05-10</fecha_lanzamiento>
+            <categoria>Ropa</categoria>
+        </producto>
+        <producto codigo="p2">
+            <nombre>Pantalones</nombre>
+            <precio>29.99</precio>
+            <fecha_lanzamiento>2023-05-15</fecha_lanzamiento>
+            <categoria>Ropa</categoria>
+        </producto>
+        <producto codigo="p3">
+            <nombre>Reloj</nombre>
+            <precio>49.99</precio>
+            <fecha_lanzamiento>2023-05-20</fecha_lanzamiento>
+            <categoria>Accesorios</categoria>
+        </producto>
     </productos>
     <pedidos>
         <pedido id="o1">
             <cliente>Juan Pérez</cliente>
             <fecha>2023-06-01</fecha>
-            <producto idproducto="p1"/>
+            <productop idproducto="p1" />
             <cantidad>2</cantidad>
+            <online>
+                    <direccionentrega>calle falsa</direccionentrega>
+            </online>
+
         </pedido>
         <pedido id="o2">
             <cliente>María López</cliente>
             <fecha>2023-06-02</fecha>
-            <producto idproducto="p2"/>
-            <cantidad>1</cantidad>
+            <productop idproducto="p2" />
+            <cantidad>9</cantidad>
+            <entienda>
+                    <nombreVendedor>Pepe</nombreVendedor>
+            </entienda>
         </pedido>
     </pedidos>
 </tienda>
