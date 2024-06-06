@@ -21,13 +21,13 @@
                     </tr>
                     <xsl:for-each select="/laliga/equipos/equipo">
                         <xsl:variable name="id" select="@id" />
-                               
+                        <xsl:variable name="sdfsdf" select="nombre" />       
                         <tr>
                             <td>
-                                <xsl:value-of select="$id" />
+                                <xsl:value-of select="@id" />
                             </td>
                             <td>
-                                <xsl:value-of select="nombre" />
+                                <xsl:value-of select="$sdfsdf" />
                             </td>
 
                             <td>
